@@ -11,34 +11,58 @@ color pizzaB = color (201,67,16);
 
 void setup() {
 //size of the screen
-size (1000,720);
+  size (1000,720);
 //background colour
-background (255);
+  background (255);
 //frameRate(5);
 }
 
+
 void draw() { 
-
-//creates the grid
-int i;
-stroke (250);
-for (i = 40; i<1040;) { //sets up the grid
-line (i, 0, i, 1000); //1000 correlates to the size of the screen
-line (0, i, 1000, i);
-i+= 40; //20 is how big each box is
-  }
-  
-fill (137, 207, 240);
-text ("Colour Legend: ",900,645);
-fill(black);
-text ("1 Black", 900, 660);
-fill(pizzaY);
-text ("2 Yellow",900, 675);
-fill(pizzaR);
-text ("3 Red", 900, 690);
-fill(pizzaB);
-text ("4 Brown",900, 705);
-
+  textSize(40);
+  text("C", 40, 40);
+  fill(0);
+  text("O", 60, 40);
+  fill(200);
+  text("L", 85, 40);
+  fill(200);
+  text("O", 100, 40);
+  fill(200);
+  text("R", 125, 40);
+  fill(200);
+  text("I", 145, 40);
+  fill(200);
+  text("N", 150, 40);
+  fill(200);
+  text("G", 175, 40);
+  fill(200);
+  text("B", 200, 40);
+  fill(200);
+  text("O", 220, 40);
+  fill(200);
+  text("O", 245, 40);
+  fill(200);
+  text("K", 270, 40);
+  fill(200);
+  //creates the grid
+    int i;
+    stroke (250);
+    for (i = 40; i<1040; i= i+40) { //sets up the grid
+      line (i, 0, i, 1000); //1000 correlates to the size of the screen
+      line (0, i, 1000, i);
+    }
+    textSize(12);
+    fill (137, 207, 240);
+    text ("Colour Legend: ",900,645);
+    fill(black);
+    text ("1 Black", 900, 660);
+    fill(pizzaY);
+    text ("2 Yellow",900, 675);
+    fill(pizzaR);
+    text ("3 Red", 900, 690);
+    fill(pizzaB);
+    text ("4 Brown",900, 705);
+    
 //numbers - black
 fill (0);
 for(i=480; i<640; i = i + 40) {
@@ -157,13 +181,14 @@ if (squares[xMouse][yMouse] == false) { //if the coordinates have been clicked
   square(mouseX - remainderX, mouseY - remainderY, 40); //draws a square overtop of the
   // grid with specific colour
   squares[xMouse][yMouse] = true; //sets the boolean array to true
-} else if (squares[xMouse][yMouse] == true) {
+} 
+//code to let them unfill a square
+else if (squares[xMouse][yMouse] == true) {
   fill (255);
   square(mouseX - remainderX, mouseY - remainderY, 40);
   squares[xMouse][yMouse] = false;
 }
-}
-
+    }
 void keyPressed(){
  if (key == '1') {
   c = black;
