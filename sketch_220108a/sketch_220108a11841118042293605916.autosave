@@ -20,31 +20,30 @@ void setup() {
 
 void draw() { 
   textSize(40);
-  fill(255,0,0);
   text("C", 40, 40);
-  fill(255,127,0);
+  fill(0);
   text("O", 60, 40);
-  fill(255,225,0);
+  fill(200);
   text("L", 85, 40);
-  fill(148,0,211);
+  fill(200);
   text("O", 100, 40);
-  fill(0,0,255);
+  fill(200);
   text("R", 125, 40);
-  fill(0,0,0);
+  fill(200);
   text("I", 145, 40);
-  fill(0,255,211);
-  text("N", 152, 40);
-  fill(255,0,0);
+  fill(200);
+  text("N", 150, 40);
+  fill(200);
   text("G", 175, 40);
-  fill(255,127,0);
+  fill(200);
   text("B", 200, 40);
-  fill(0,255,0);
+  fill(200);
   text("O", 220, 40);
-  fill(0,0,255);
+  fill(200);
   text("O", 245, 40);
-  fill(75,0,130);
+  fill(200);
   text("K", 270, 40);
-  fill(148,0,211);
+  fill(200);
   //creates the grid
     int i;
     stroke (250);
@@ -182,50 +181,10 @@ for (i=560; i<640; i=i+40) {
   text("3", i, 560);
 }
 text("3", 600, 600);
+}
 
 //numbers - yellow
 fill(pizzaY);
-for (i=520; i<640; i=i+40) {
-  text("2", i, 200);
-}
-for (i=440; i<560; i=i+40) {
-  text("2", i, 240);
-}
-for (i=400; i<520; i=i+40) {
-  text("2", i, 280);
-}
-for (i=360; i<520; i=i+40) {
-  text("2", i, 320);
-}
-text("2", 320, 360);
-for (i=440; i<560; i=i+40) {
-  text("2", i, 360);
-}
-text("2", 640, 360);
-for (i=480; i<680; i=i+40) {
-  text("2", i, 400);
-}
-text("2", 280, 440);
-for (i=480; i<680; i=i+40) {
-  text("2", i, 440);
-}
-for (i=280; i<360; i=i+40) {
-  text("2", i, 480);
-}
-for (i=440; i<680; i=i+40) {
-  text("2", i, 480);
-}
-for (i=280; i<540; i=i+40) {
-  text("2", i, 520);
-}
-for (i=640; i<720; i=i+40) {
-  text("2", i, 520);
-}
-text("2", 680, 560);
-text("2", 480, 560);
-text("2", 680, 600);
-
-}
 
 void mouseClicked() {
 
