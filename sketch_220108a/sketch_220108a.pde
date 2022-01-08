@@ -143,6 +143,20 @@ for (i=600; i<760; i=i+40) {
   text("1", i, 640);
 }
 
+//numbers - red
+fill(pizzaR);
+for (i=560; i<640; i=i+40) {
+  text("3", i, 280);
+  text("3", i, 320);
+}
+for (i=360; i<440; i=i+40) {
+  text("3", i, 400);
+  text("3", i, 440);
+}
+for (i=560; i<640; i=i+40) {
+  text("3", i, 560);
+}
+text("3", 600, 600);
 }
 
 void mouseClicked() {
