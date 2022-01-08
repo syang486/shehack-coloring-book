@@ -181,6 +181,12 @@ for (i=560; i<640; i=i+40) {
   text("3", i, 560);
 }
 text("3", 600, 600);
+
+//numbers - yellow
+fill(pizzaY);
+for (i=520; i<640; i=i+40) {
+  text("2", i, 200);
+}
 }
 
 void mouseClicked() {
