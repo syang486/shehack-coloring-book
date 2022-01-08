@@ -20,30 +20,31 @@ void setup() {
 
 void draw() { 
   textSize(40);
+  fill(255,0,0);
   text("C", 40, 40);
-  fill(0);
+  fill(255,127,0);
   text("O", 60, 40);
-  fill(200);
+  fill(255,225,0);
   text("L", 85, 40);
-  fill(200);
+  fill(148,0,211);
   text("O", 100, 40);
-  fill(200);
+  fill(0,0,255);
   text("R", 125, 40);
-  fill(200);
+  fill(0,0,0);
   text("I", 145, 40);
-  fill(200);
-  text("N", 150, 40);
-  fill(200);
+  fill(0,255,211);
+  text("N", 152, 40);
+  fill(255,0,0);
   text("G", 175, 40);
-  fill(200);
+  fill(255,127,0);
   text("B", 200, 40);
-  fill(200);
+  fill(0,255,0);
   text("O", 220, 40);
-  fill(200);
+  fill(0,0,255);
   text("O", 245, 40);
-  fill(200);
+  fill(75,0,130);
   text("K", 270, 40);
-  fill(200);
+  fill(148,0,211);
   //creates the grid
     int i;
     stroke (250);
