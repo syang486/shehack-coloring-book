@@ -44,6 +44,10 @@ void draw() {
   fill(200);
   text("K", 270, 40);
   fill(200);
+  textSize(8);
+  fill(0);
+  text("Click the square once to fill it in, and again to remove the colour.", 40,80);
+  text("To change colour, use your keyboard with the numbers shown on the legend.",40,120);
   //creates the grid
     int i;
     stroke (250);

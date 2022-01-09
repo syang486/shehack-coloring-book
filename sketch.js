@@ -47,6 +47,11 @@ function draw() {
     fill(75, 0, 130);
     text("K", 270, 40);
     fill(148, 0, 211);
+    fill(0);
+    textSize(8);
+    text("Click the square once to fill it in, and again to remove the colour.", 40,80);
+    text("To change colour, use your keyboard with the numbers shown on the legend.",40,120);
+
     // creates the grid
     var i;
     stroke(250);
