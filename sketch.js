@@ -21,37 +21,6 @@ function setup() {
 }
 
 function draw() {
-    textSize(40);
-    fill(255, 0, 0);
-    text("C", 40, 40);
-    fill(255, 127, 0);
-    text("O", 60, 40);
-    fill(255, 225, 0);
-    text("L", 85, 40);
-    fill(148, 0, 211);
-    text("O", 100, 40);
-    fill(0, 0, 255);
-    text("R", 125, 40);
-    fill(0, 0, 0);
-    text("I", 145, 40);
-    fill(0, 255, 211);
-    text("N", 152, 40);
-    fill(255, 0, 0);
-    text("G", 175, 40);
-    fill(255, 127, 0);
-    text("B", 200, 40);
-    fill(0, 255, 0);
-    text("O", 220, 40);
-    fill(0, 0, 255);
-    text("O", 245, 40);
-    fill(75, 0, 130);
-    text("K", 270, 40);
-    fill(148, 0, 211);
-    fill(0);
-    textSize(8);
-    text("Click the square once to fill it in, and again to remove the colour.", 40,80);
-    text("To change colour, use your keyboard with the numbers shown on the legend.",40,120);
-
     // creates the grid
     var i;
     stroke(250);
@@ -230,6 +199,37 @@ function draw() {
     text("2", 680, 560);
     text("2", 480, 560);
     text("2", 680, 600);
+    // title and instructions
+    textSize(40);
+    fill(255, 0, 0);
+    text("C", 40, 40);
+    fill(255, 127, 0);
+    text("O", 60, 40);
+    fill(255, 225, 0);
+    text("L", 85, 40);
+    fill(148, 0, 211);
+    text("O", 100, 40);
+    fill(0, 0, 255);
+    text("R", 125, 40);
+    fill(0, 0, 0);
+    text("I", 145, 40);
+    fill(0, 255, 211);
+    text("N", 152, 40);
+    fill(255, 0, 0);
+    text("G", 175, 40);
+    fill(255, 127, 0);
+    text("B", 200, 40);
+    fill(0, 255, 0);
+    text("O", 220, 40);
+    fill(0, 0, 255);
+    text("O", 245, 40);
+    fill(75, 0, 130);
+    text("K", 270, 40);
+    fill(148, 0, 211);
+    fill(0);
+    textSize(8);
+    text("Click the square once to fill it in, and again to remove the colour.", 40,80);
+    text("To change colour, use your keyboard with the numbers shown on the legend.",40,120);
 }
 
 function mouseClicked() {
